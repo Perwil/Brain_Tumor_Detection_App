@@ -68,5 +68,3 @@ Ensure you have Python (>= 3.8) installed. Install the required libraries using 
 
 ```bash
 pip install -r requirements.txt
-
-### Usage
