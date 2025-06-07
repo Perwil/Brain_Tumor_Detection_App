@@ -35,6 +35,7 @@ The dataset used in this project is the [Brain MRI Images for Brain Tumor Detect
 
 - **NO**: MRI scans without a tumor, labeled as `0`
 - **YES**: MRI scans with a tumor, labeled as `1`
+![Alt text](https://th.bing.com/th/id/OIP.3xFhX87fwTlBLOlADBrmWQHaH3?w=236&h=220&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0)
 
 ### Data Details
 - Image dimensions: \(240 \times 240\)
@@ -61,7 +62,6 @@ The machine learning model is built using a Convolutional Neural Network (CNN). 
 
 ---
 
-## Setup and Installation
 
 ### Prerequisites
 Ensure you have Python (>= 3.8) installed. Install the required libraries using the following command:
