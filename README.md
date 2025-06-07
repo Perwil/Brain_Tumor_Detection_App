@@ -12,7 +12,6 @@ This repository contains a project that leverages Convolutional Neural Networks 
 - [Usage](#usage)
 - [Deployment with Gradio](#deployment-with-gradio)
 - [Results](#results)
-- [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
@@ -74,3 +73,6 @@ Ensure you have Python (>= 3.8) installed. Install the required libraries using 
 
 ```bash
 pip install -r requirements.txt
+
+### Acknowledgments
+Special Thank you to VIZUARA AI team for their incredible lectures and well detailed projects
