@@ -1,78 +1,80 @@
-# Brain Tumor Detection Using AI
+# 🧠 Brain Tumor Detection Using AI
 
-This repository contains a project that leverages Convolutional Neural Networks (CNNs) to classify brain MRI images as either indicating the presence of a tumor (malignant) or not. The project includes steps for building the model, training it on labeled MRI images, and deploying it using Gradio for interactive usage.
-
----
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Deployment with Gradio](#deployment-with-gradio)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+This repository contains a deep learning project that uses **Convolutional Neural Networks (CNNs)** to classify brain MRI images as either indicating the presence of a tumor or not. The project walks through model building, training on labeled data, and deployment using **Gradio** for real-time usage.
 
 ---
 
-## Project Overview
+## 📑 Table of Contents
 
-Brain tumors can be life-threatening and detecting them early is crucial for effective treatment. This project focuses on using machine learning techniques to assist in the classification of brain tumors from MRI scans. The model is designed to classify MRI images into two categories:
-
-- **NO**: No tumor present
-- **YES**: Tumor present
-
-The solution also includes an interactive Gradio-based application for real-time predictions.
+- [📌 Project Overview](#project-overview)
+- [📂 Dataset](#dataset)
+- [🧠 Model Architecture](#model-architecture)
+- [⚙️ Setup and Installation](#setup-and-installation)
+- [🚀 Usage](#usage)
+- [🌐 Deployment with Gradio](#deployment-with-gradio)
+- [🙏 Acknowledgments](#acknowledgments)
+- [📄 License](#license)
 
 ---
 
-## Dataset
+## 📌 Project Overview
 
-The dataset used in this project is the [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection) dataset. It contains MRI images divided into two categories:
+Brain tumors can be life-threatening, and early detection is crucial. This project applies **machine learning** techniques to automate the classification of brain tumors from MRI scans.
 
-- **NO**: MRI scans without a tumor, labeled as `0`  
-  <img src="https://brainchangers.thewest.com.au/beating-depression/assets/owbMMgSKx3/mri_0001_11-2083x1906.jpeg" alt="No Tumor MRI" width="400"/>
+The model classifies MRI images into two categories:
 
-- **YES**: MRI scans with a tumor, labeled as `1`  
+- **NO** — No tumor present
+- **YES** — Tumor present
+
+A web-based interface built with **Gradio** allows users to test the model interactively.
+
+---
+
+## 📂 Dataset
+
+The dataset used is the [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection) from Kaggle. It consists of MRI scans categorized into:
+
+- **NO**: MRI scans **without** a tumor (`label = 0`)  
+  <img src="https://brainchangers.thewest.com.au/beating-depression/assets/owbMMgSKx3/mri_0001_11-2083x1906.jpeg" alt="No Tumor MRI" width="300"/>
+
+- **YES**: MRI scans **with** a tumor (`label = 1`)  
   <img src="https://th.bing.com/th/id/OIP.3xFhX87fwTlBLOlADBrmWQHaH3?w=236&h=220&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="Tumor MRI" width="400"/>
-- **IMAGES TEST UESD ON GRADIO**
-  ![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
 
-## Data Details
-- Image dimensions: \(240 \times 240\)
-- Format: JPEG/PNG
-- Classes: Binary (Tumor/No Tumor)
+- **Gradio Input Sample Images**:  
+  ![Gradio Input Samples](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
 
----
+### 📊 Data Details
 
-## Model Architecture
-
-The machine learning model is built using a Convolutional Neural Network (CNN). The architecture includes the following layers:
-
-1. **Convolutional Layers**: Extract spatial features from images.
-2. **MaxPooling Layers**: Reduce spatial dimensions and computational complexity.
-3. **Flattening Layer**: Converts 2D feature maps into a 1D feature vector.
-4. **Dense Layers**: Fully connected layers for classification.
-5. **Dropout Layers**: Prevent overfitting by randomly dropping nodes.
-![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/model_architecture.png)
-
-
-## Libraries Used
-- `TensorFlow/Keras` for model building
-- `Scikit-learn` for preprocessing
-- `Matplotlib` for visualizations
-- `Gradio` for deployment
+- Image dimensions: `240 x 240`
+- Format: `.jpg` / `.png`
+- Classes: Binary (`Tumor` / `No Tumor`)
 
 ---
 
+## 🧠 Model Architecture
 
-## Prerequisites
-Ensure you have Python (>= 3.8) installed. Install the required libraries using the following command:
+The model is built using a **CNN (Convolutional Neural Network)** with the following components:
+
+1. 🧱 **Convolutional Layers** — for spatial feature extraction  
+2. 🌀 **MaxPooling Layers** — for dimensionality reduction  
+3. 📉 **Flatten Layer** — flattens feature maps to vectors  
+4. 🎯 **Dense Layers** — fully connected for classification  
+5. 🧪 **Dropout Layers** — to prevent overfitting
+
+<img src="https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/model_architecture.png" alt="Model Architecture" width="600"/>
+
+### 🧰 Libraries Used
+
+- `TensorFlow` / `Keras` – Model building and training  
+- `Scikit-learn` – Preprocessing and evaluation  
+- `Matplotlib` – Visualization  
+- `Gradio` – Web app deployment
+
+---
+
+## ⚙️ Setup and Installation
+
+Ensure you have Python **3.8+** installed. Then install the required packages:
 
 ```bash
 pip install -r requirements.txt
----
-
-## Acknowledgments
-Special thanks to the **VIZUARA AI** team for their incredible lectures and well-detailed projects.
