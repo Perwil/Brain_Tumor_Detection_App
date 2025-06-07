@@ -57,6 +57,8 @@ The machine learning model is built using a Convolutional Neural Network (CNN). 
 3. **Flattening Layer**: Converts 2D feature maps into a 1D feature vector.
 4. **Dense Layers**: Fully connected layers for classification.
 5. **Dropout Layers**: Prevent overfitting by randomly dropping nodes.
+![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
+
 
 ### Libraries Used
 - `TensorFlow/Keras` for model building
