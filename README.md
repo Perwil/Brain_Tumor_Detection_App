@@ -34,8 +34,10 @@ The solution also includes an interactive Gradio-based application for real-time
 The dataset used in this project is the [Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection) dataset. It contains MRI images divided into two categories:
 
 - **NO**: MRI scans without a tumor, labeled as `0`
+- ![Alt text](https://brainchangers.thewest.com.au/beating-depression/assets/owbMMgSKx3/mri_0001_11-2083x1906.jpeg)
 - **YES**: MRI scans with a tumor, labeled as `1`
 ![Alt text](https://th.bing.com/th/id/OIP.3xFhX87fwTlBLOlADBrmWQHaH3?w=236&h=220&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0)
+
 
 ### Data Details
 - Image dimensions: \(240 \times 240\)
