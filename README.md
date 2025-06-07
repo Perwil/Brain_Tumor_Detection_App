@@ -38,8 +38,8 @@ The dataset used in this project is the [Brain MRI Images for Brain Tumor Detect
 
 - **YES**: MRI scans with a tumor, labeled as `1`  
   <img src="https://th.bing.com/th/id/OIP.3xFhX87fwTlBLOlADBrmWQHaH3?w=236&h=220&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="Tumor MRI" width="400"/>
-
-
+- **IMAGES TEST UESD ON GRADIO**
+  ![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
 
 ### Data Details
 - Image dimensions: \(240 \times 240\)
@@ -57,7 +57,7 @@ The machine learning model is built using a Convolutional Neural Network (CNN). 
 3. **Flattening Layer**: Converts 2D feature maps into a 1D feature vector.
 4. **Dense Layers**: Fully connected layers for classification.
 5. **Dropout Layers**: Prevent overfitting by randomly dropping nodes.
-![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
+![Alt text]()
 
 
 ### Libraries Used
