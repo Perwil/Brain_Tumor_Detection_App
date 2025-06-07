@@ -11,7 +11,6 @@ This repository contains a project that leverages Convolutional Neural Networks 
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Deployment with Gradio](#deployment-with-gradio)
-- [Results](#results)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
@@ -40,7 +39,7 @@ The dataset used in this project is the [Brain MRI Images for Brain Tumor Detect
 - **IMAGES TEST UESD ON GRADIO**
   ![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/MRI%20Brain%20images.png)
 
-### Data Details
+## Data Details
 - Image dimensions: \(240 \times 240\)
 - Format: JPEG/PNG
 - Classes: Binary (Tumor/No Tumor)
@@ -59,7 +58,7 @@ The machine learning model is built using a Convolutional Neural Network (CNN). 
 ![Alt text](https://github.com/Perwil/Brain_Tumor_Detection_App/blob/main/model_architecture.png)
 
 
-### Libraries Used
+## Libraries Used
 - `TensorFlow/Keras` for model building
 - `Scikit-learn` for preprocessing
 - `Matplotlib` for visualizations
@@ -68,11 +67,12 @@ The machine learning model is built using a Convolutional Neural Network (CNN). 
 ---
 
 
-### Prerequisites
+## Prerequisites
 Ensure you have Python (>= 3.8) installed. Install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
+---
 
-### Acknowledgments
-Special Thank you to VIZUARA AI team for their incredible lectures and well detailed projects
+## Acknowledgments
+Special thanks to the **VIZUARA AI** team for their incredible lectures and well-detailed projects.
